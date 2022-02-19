@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="js/search.js"></script>
+    <script defer src="js/popup.js"></script>
+    <title>Fetch API</title>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" id="searchBar" class="search--input" placeholder="Type.."/>
+        <button class="search--btn primary--btn" id="search--btn">Search</button>
+    </div>
+
+    <div class="popup--btn--container">
+        <button id="button" class="popup--btn primary--btn">Click Here</button>
+    </div>
+
+    <div class="grid--container" id="grid--container">
+    </div>
+    
+    <div class="bg--popup">
+        <div class="popup--content">
+            <div class="close">&times;</div>
+            <form id="form">
+                <div class="user--name">
+                    <input type="text" placeholder="Enter your name.." class="details" id="name"/>
+                </div>
+                <div class="user--email">
+                    <input type="email" placeholder="Enter your email.." class="details" id="email"/>
+                </div>
+                <div class="user--feedback">
+                    <textarea class="textarea" placeholder="Enter your feedback" id="feedback"></textarea>
+                </div>
+                <button class="submit--btn primary--btn" id="submit--btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
